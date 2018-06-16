@@ -99,5 +99,18 @@
         </plugin>
     </plugins>
 </build>
+<distributionManagement>
+		 <snapshotRepository>
+		    <id>nexus</id>
+		    <name>Internal Snapshot Releases</name>	 
+		    <url>http://34.219.119.246:8081/repository/Shipwrick-SHNAPSHOT/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexus</id>
+		    <name>Internal Releases</name>
+		    <url>http://34.219.119.246:8081/repository/Shipwrick/</url>
+		</repository>
+  	</distributionManagement>
 	
 </project>
